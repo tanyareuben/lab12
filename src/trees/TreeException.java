@@ -2,7 +2,7 @@ package trees;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 
-public class TreeException extends DefaultMutableTreeNode
+public class TreeException extends Exception
 {
 	public TreeException(String s)
 	{
